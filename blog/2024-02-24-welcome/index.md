@@ -7,6 +7,8 @@ tags: [hello, introduction]
 
 Hi, cool that you are interested in my blog! 
 
+<!-- truncate -->
+
 Let us start with a few lines about myself so you know what to expect:
 
 I am Nicholas, currently 27 years old and living in Augsburg, Germany (soon probably in Munich again). I've always loved building things on my computer, even though I often don't finish the projects, but hey, it's all about the fun and experiments during the process.
