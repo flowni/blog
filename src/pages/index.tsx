@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import HomepageInterests from '@site/src/components/HomepageInterests';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
@@ -19,8 +19,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to="/blog">
+            Go to blog
           </Link>
         </div>
       </div>
@@ -33,10 +33,10 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Blog about Coding, AI & Startups">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        <HomepageInterests />
       </main>
     </Layout>
   );
